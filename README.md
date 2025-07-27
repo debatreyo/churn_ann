@@ -6,3 +6,13 @@ A web application built with **Streamlit** that predicts whether a customer is l
 - TensorFlow/Keras ANN model
 - Scikit-learn for preprocessing
 - Streamlit for the interactive frontend
+
+## 🚀 Live App
+
+Try the app here 👉 [Churn Prediction Web App](https://churn-ann-predict.streamlit.app/)
+
+---
+
+## 📸 Demo
+
+![Churn Prediction Demo](churn_ann_demo.gif)
