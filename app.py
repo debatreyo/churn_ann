@@ -30,7 +30,7 @@ with open(r"models/scaler.pkl", "rb") as file:
 # STREAMLIT APP SETUP
 
 # main heading
-st.title("Customer CHurn Prediction")
+st.title("Customer Churn Prediction")
 
 # getting user input
 geography = st.selectbox("Geography", options=geo_encoder.categories_[0])
