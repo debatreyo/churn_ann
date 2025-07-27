@@ -11,19 +11,19 @@ import pickle
 # MODEL & PREPROCESSING SETUP
 
 # load the trained ANN model
-model = tf.keras.models.load_model(r"models\churn_model.h5")
+model = tf.keras.models.load_model(r"models/churn_model.h5")
 
 # load the encoders and scaler
-with open(r"models\gender_encoder.pkl", "rb") as file:
+with open(r"models/gender_encoder.pkl", "rb") as file:
     gender_encoder = pickle.load(file)
     gender_encoder = gender_encoder.get("Gender") ## file was initially stored as a dict
 
 # load the geography encoder
-with open(r"models\geo_encoder.pkl", "rb") as file:
+with open(r"models/geo_encoder.pkl", "rb") as file:
     geo_encoder = pickle.load(file)
 
 # load the scaler
-with open(r"models\scaler.pkl", "rb") as file:
+with open(r"models/scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 
